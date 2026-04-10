@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fastcrystal",
+  "version": "1.0.0",
+  "name": "Fast Crystal",
+  "description": "Fast End Crystal placement and explosion",
+  "authors": ["You"],
+  "entrypoints": {
+    "main": ["com.example.fastcrystal.FastCrystalMod"]
+  },
+  "mixins": [
+    "fastcrystal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x",
+    "fabric-api": "*"
+  }
+}
